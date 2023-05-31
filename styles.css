@@ -1,0 +1,43 @@
+.container {
+	position: fixed;
+	width: 100%;
+	bottom: 50%;
+	text-align: center;
+	left: 0%;
+}
+
+.container img {
+	width: 100%;
+	max-width: 400px; /* Adjust the max-width as needed */
+}
+
+.container h1 {
+	color: #fff;
+	margin: 0;
+	top: 150px; /* Adjust the top position as needed */
+	position: relative;
+	font-size: 24px; /* Adjust the font size as needed */
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 768px) {
+	.container {
+		bottom: 40%; /* Adjust the bottom position as needed */
+	}
+
+	.container h1 {
+		top: 120px; /* Adjust the top position as needed */
+		font-size: 20px; /* Adjust the font size as needed */
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.container {
+		bottom: 30%; /* Adjust the bottom position as needed */
+	}
+
+	.container h1 {
+		top: 90px; /* Adjust the top position as needed */
+		font-size: 16px; /* Adjust the font size as needed */
+	}
+}
