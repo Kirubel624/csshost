@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container img {
+    width: 80vw;
+    max-width: 80vw;
+}
+
+.container h1 {
+    color: #fff;
+    margin: 0;
+    padding-top: 100px;
+    font-size: 1.875rem; /* 30px */
+    line-height: 2.25rem; /* 36px */
+    font-family: sans-serif;
+}
